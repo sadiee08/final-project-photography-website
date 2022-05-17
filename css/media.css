@@ -1,0 +1,101 @@
+@media (max-width: 60em) {
+  /* ---Sobre mi--- */
+  .centerImgsAndText {
+    display: block;
+  }
+  #bibliography p{
+    padding: 50px;
+    margin: 0px;
+  }
+  #imgSobreMi {
+    width: 327px;
+    height: auto;
+    object-fit: cover;
+    padding: 30px 30px 0px 30px;
+    margin: 0px;
+  }
+  /* ---Inicio--- */
+  #description {
+    padding: 80px;
+    text-align: center;
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 20px;
+  }
+  /* ---Galeria--- */
+  .descriptionPage {
+    padding: 10%;
+    font-size: 20px;
+  }
+  .namePage h1 {
+    font-size: 50px;
+  }
+  /* ---Servicios--- */
+  .imgServicio img {
+    width: 254px;
+    height: 219px;
+    object-fit: cover;
+    margin: 0px;
+    padding: 20px;
+  }
+  .descriptionServicio p{
+    padding: 10px;
+    margin: 0px;
+    font-size: 15px;
+    padding-right: 30px;
+  }
+  .subtituloServicio h2{
+    font-size: 20px;
+  }
+  .paddingPurple {
+    padding: 80px 5%;
+  }
+  
+  /* ---Contacto--- */
+  .form-style{
+    padding: 111px 30px 150px;
+  }
+   /* ---crud--- */
+  #mediaCrud {
+    font-size: 50px;
+  }
+   /* ---logIn--- */
+  .form-style-login input {
+    width: 200px;
+  }
+}
+@media (max-width: 35em) {
+  .descriptionPage {
+    padding: 5%;
+    font-size: 18px;
+  }
+  .center-icon-text {
+    display: block;
+  }
+  .font-contact p {
+    text-align: center;
+    margin: auto;
+  }
+  .icon-contact img {
+    margin:auto;
+  }
+  .divServicio {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .descriptionServicio p {
+    text-align: center;
+    padding: 15px;
+  }
+  .subtituloServicio h2 {
+    text-align: center;
+  }
+  .form-style-login input {
+    width: 150px;
+  }
+  .primary-navigation {
+    padding: min(30vh, 10rem) 1em;
+  }
+}

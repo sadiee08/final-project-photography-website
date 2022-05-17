@@ -1,0 +1,71 @@
+/* ---Inicio--- */
+.imgInicioGaleria{
+  width: 254px;
+  height: 254px;
+  object-fit: cover;
+}
+.paddingInicioGaleria{
+  width: 80%;
+  margin: 100px auto 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+.paddingImgs img{
+  width: 254px;
+  height: 254px;
+  cursor: pointer;
+  object-fit: cover;
+}
+.imgInfLogo img{
+  width: 46px;
+  height: 52px;
+}
+/* ---Galeria--- */
+.paddingPageGaleria{
+  width: 80%;
+  margin: 100px auto 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+.imgsGaleria{
+  width: 254px;
+  height: 254px;
+  object-fit: cover;
+}
+/* ---Sobre mi--- */
+#imgSobreMi{
+  width: 327px;
+  height: auto;
+  object-fit: cover;
+  margin: 30px 110px 30px 135px;
+}
+.centerImgsAndText{
+  display: flex;
+  justify-content: space-evenly;
+}
+/* ---Servicio---*/
+.imgServicio img{
+  width: 254px;
+  height: 219px;
+  object-fit: cover;
+  margin: 26px 28px 26px 97px;
+}
+/* ---Crud--- */
+.img-button img{
+  width: 17px;
+  height: 20px;
+}
+.img-button-filter img{
+  margin-right: 5px;
+}
+/* ---contacto--- */
+.icon-contact img{
+  width: 30px;
+  margin-right: 20px;
+}
+.center-icon-text{
+  display: flex;
+  justify-content: space-evenly;
+}

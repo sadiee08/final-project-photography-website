@@ -1,0 +1,240 @@
+#description{
+  padding: 10px;
+  text-align: center;
+  margin: 115px 175px;;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black;
+  font-weight: 300;
+  font-size: 22px;
+}
+.title h3{
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 36px;
+  width: fit-content;
+  margin: auto;
+  padding: 75px 0px 41px;
+  border-bottom: 1px solid white;
+
+}
+.textInicioGaleria p{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+  padding: 5px 15px 5px 15px;
+  margin-top: 10px;
+}
+.footerGen {
+  text-align: center;
+  padding: 23px;
+  border-top: 1px solid #f7f7f7;
+}
+.namePage h1{
+  border-bottom: 1px solid black;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 65px;
+  font-weight: 900;
+  margin: 70px auto 100px;
+  padding: 0px 0px 41px;
+  text-align: center;
+  width: fit-content;
+}
+.descriptionPage{
+  padding: 0px 259px 50px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black;
+  font-weight: 300;
+  font-size: 22px;
+}
+/* ---Sobre mi--- */
+#bibliography p{
+  padding: 10px;
+  margin: 0px 50px 0px 0px;
+  text-align: justify;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-weight: 300;
+  font-size: 16px;
+}
+#divBibliography{
+  display: flex;
+  align-items: center;
+}
+.subtituloCertificado h3{
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black;
+  font-weight: 700;
+  font-size: 36px;
+  width: fit-content;
+  margin: auto;
+  padding: 75px 0px 41px;
+  border-bottom: 1px solid black;
+}
+.centerLista{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+.listaCertificados ul{
+  list-style-type: none;
+}
+/* ---Servicios--- */
+.descriptionServicio p{
+  padding: 10px;
+  margin: 0px 50px 0px 0px;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black;
+  font-weight: 300;
+  font-size: 18px;
+}
+.subtituloServicio h2 {
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black;
+  font-weight: 700;
+  font-size: 30px;
+}
+.divServicio{
+  display: flex;
+  align-items: center;
+}
+/* ---Contacto--- */
+.form-style{
+  max-width: 720px;
+  margin: auto;
+  padding: 111px 0px 200px;
+}
+.padding-form{
+  margin-bottom: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+.button-style{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  color: #871847;
+  background-color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 10px;
+}
+.button-style:hover{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  color: #871847;
+  background-color: white;
+  border: none;
+}
+.font-contact p{
+  font-size: 19px;
+  margin: auto;
+  text-align: left;
+  margin-left: 0px;
+}
+.icon-contact div{
+  padding: 10px 0px;
+}
+
+/* ---Ingresar--- */
+#namePageIngresar h1{
+  border-bottom: 1px solid black;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 55px;
+  font-weight: 900;
+  margin: 60px auto 100px;
+  padding: 0px 0px 30px;
+  text-align: center;
+  width: fit-content;
+}
+.button-style-login{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  color: #871847;
+  background-color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 10px;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+.button-style-login:hover{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  color: #871847;
+  background-color: white;
+  border: none;
+}
+.form-style-login input{
+  max-width: 374px;
+  width: 270px;
+}
+/* ---Crud--- */
+.crud-margin{
+  margin: auto 100px 10vh 100px;
+  align-content: center;
+}
+.title-head th{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  background-color: #871847;
+}
+.text-table td{
+  margin-bottom: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  margin: auto;
+  padding: 5px;
+}
+.center{
+  text-align: center;
+}
+.button-style-delete{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  color: #871847;
+  background-color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+}
+.table > :not(:first-child) {
+  border-top: 2px solid white;
+}
+.button-style-filtro{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  color: white;
+  background-color: #871847;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 10px;
+  margin: auto 0px 5vh auto;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.button-style-filtro:hover{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  background-color: #871847;
+  border: none;
+}
+.font-style-filter button{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+#descripton-contact {
+  padding-bottom: 2.5rem;
+
+}

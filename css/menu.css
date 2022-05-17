@@ -1,0 +1,167 @@
+.menuSup {
+  padding: 17px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.justifyRow {
+  justify-content: center;
+}
+
+#menuSupImg {
+  width: 284px;
+  height: 82px;
+}
+
+.middleMenu {
+  padding: 36px 20px;
+  color: #871847;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: #871847;
+}
+
+/* mouse over link */
+a:hover {
+  font-weight: bold;
+  color: #871847;
+}
+
+/* selected link */
+a:active {
+  color: #871847;
+}
+
+/* unvisited link */
+a:link {
+  color: #871847;
+}
+
+/* visited link */
+a:visited {
+  color: #871847;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.navbar {
+  display: block;
+}
+
+.mob-nav-toogle {
+  display: none;
+}
+
+.nav {
+  flex-wrap: nowrap;
+}
+
+#menuImgRes {
+  display: none;
+}
+.black-background {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background: #00000080;
+  left: 0;
+  right: 0;
+  display: none;
+}
+
+@media (max-width: 60em) {
+  .menuSup {
+    border-bottom-width: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+  }
+    .nav-link:focus,
+  .nav-link:hover {
+    color: white;
+  }
+
+  /* mouse over link */
+  a:hover {
+    font-weight: bold;
+    color: white;
+  }
+
+  /* selected link */
+  a:active {
+    color: white;
+  }
+
+  /* unvisited link */
+  a:link {
+    color: white;
+  }
+
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+
+  .primary-navigation {
+    position: fixed;
+    z-index: 1000;
+    inset: 0 0 0 30%;
+    flex-direction: column;
+    padding: min(30vh, 10rem) 2em;
+    background-color: #871846de;
+    transform: translateX(100%);
+    transition: transform 0.5s;
+  }
+
+  .primary-navigation[data-visible="true"] {
+    transform: translateX(50%);
+  }
+
+  .mob-nav-toogle {
+    display: block;
+    position: absolute;
+    position: rel;
+    z-index: 9999;
+    background: url("../imgs/bars-solid.svg");
+    background-repeat: no-repeat;
+    width: 2rem;
+    border: 0;
+    aspect-ratio: 1;
+    top: 1rem;
+    right: 2rem;
+  }
+
+  #imgLogoHidden {
+    display: none;
+  }
+
+  #menuImgRes {
+    display: block;
+    width: 150px;
+    height: 42px;
+    position: absolute;
+    top: 10px;
+    left: 2rem;
+  }
+
+  .middleMenu {
+    padding: 8px 20px;
+    color: #871847;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14;
+  }
+
+}
+
+body {
+  overflow-x: hidden;
+}

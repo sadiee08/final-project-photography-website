@@ -1,0 +1,28 @@
+.purpleBackground{
+  color: #871847;
+  text-align: center;
+  background-color: #871847;
+  padding: 1px;
+}
+.whiteBackground{
+  color: white;
+  text-align: center;
+  background-color: white;
+}
+/* ---Servicios--- */
+.paddingPurple{
+  padding: 80px 130px;
+}
+.marginWhite{
+  margin: 10px 0px;
+}
+/* ---Ingresar--- */
+.purpleBackgroundLogin{
+  color: #871847;
+  text-align: center;
+  background-color: #871847;
+  margin: auto auto 10vh auto;
+  padding-top: 65px;
+  width: 50%;
+  max-width: 530px;
+}
